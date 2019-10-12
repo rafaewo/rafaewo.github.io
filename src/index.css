@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(0,0,0);
+  background: linear-gradient(to right, rgba(0,0,0,1) , rgba(106,90,205,1));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+span, p {
+  cursor: cell;
+}
+
+@media (max-width: 600px) 
+{
+  .resize {
+    width: 70px;
+  }
 }

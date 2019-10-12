@@ -1,0 +1,9 @@
+.profile {
+    height: 13em;
+}
+
+.hoveron span:hover {
+    color: lawngreen ;
+    cursor: pointer;
+    transition: 1000ms;
+}
