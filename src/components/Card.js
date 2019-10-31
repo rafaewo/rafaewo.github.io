@@ -19,7 +19,10 @@ class Card extends Component {
                         <time className="f6 mb2 pointer white dib ttu tracked"><small>sempre um work in progress</small></time>
                         <h3 className="f2 f1-m f-headline-l measure-narrow lh-title mv0">
                             <span className="bg-black-60 lh-copy hoveron white pa1 tracked-tight">
-                                <span  >brain-app </span>/<span > hackatinder </span>/<span> airCnC </span>/<span> cultu-brasil</span>
+                                <span title='Webapp que utiliza uma API de reconhecimento facial' >brain-app </span>/
+                                <a href='https://www.producthunt.com/posts/hackatinder' title='Ferramenta para criação de times para hackathons online' target='_blank' rel='noopener noreferrer'> hackatinder </a>
+                                /<span> airCnC </span>/
+                                <a href='https://rafaewo.github.io/cultu-brasil/' title='Projeto para informar o público sobre a diversidade cultural brasileira' target='_blank' rel='noopener noreferrer'> cultu-brasil</a>
                             </span>
                         </h3>
                         {/* <h5 className="f5 fw4 ttu white tracked">descrição do app aqui</h5> */}

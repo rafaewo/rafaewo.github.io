@@ -3,7 +3,17 @@
 }
 
 .hoveron span:hover {
-    color: lawngreen ;
+    color: lightsteelblue;
     cursor: pointer;
-    transition: 1000ms;
+    transition: 500ms;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #43B530;
+    transition: 500ms;
 }
