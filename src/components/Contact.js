@@ -15,7 +15,7 @@ export default function Contact() {
                 rafaelnogunha@hotmail.com
             </p>
             <p className="f5 f4-ns lh-copy measure mb4">
-                Tenho interesse futuro nas seguintes áreas: realidade virtual/aumentada, empreendedorismo e desenvolvimento mobile. Se tiver alguma ideia pra compartilhar, sinta-se à vontade para dar um alô em uma das minhas redes sociais.
+                Tenho interesse futuro nas seguintes áreas: realidade virtual / aumentada, empreendedorismo e desenvolvimento mobile. Se tiver alguma ideia pra compartilhar, sinta-se à vontade para dar um alô em uma das minhas redes sociais.
             </p>
             <div className='flex justify-around items-center'>
                 <a href='https://www.linkedin.com/in/rafael-cunha-b37083120/' rel='noopener noreferrer' target='_blank'>
