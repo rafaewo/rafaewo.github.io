@@ -21,7 +21,7 @@ class Card extends Component {
                             <span className="bg-black-60 lh-copy hoveron white pa1 tracked-tight">
                                 <span title='Webapp que utiliza uma API de reconhecimento facial' >brain-app </span>/
                                 <a href='https://www.producthunt.com/posts/hackatinder' title='Ferramenta para criação de times para hackathons online' target='_blank' rel='noopener noreferrer'> hackatinder </a>
-                                /<span> airCnC </span>/
+                                /<span title='Webapp mobile desenvolvido na Semana Omnistack 9.0 junto com a Rocketseat'> airCnC </span>/
                                 <a href='https://rafaewo.github.io/cultu-brasil/' title='Projeto para informar o público sobre a diversidade cultural brasileira' target='_blank' rel='noopener noreferrer'> cultu-brasil</a>
                             </span>
                         </h3>
