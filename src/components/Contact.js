@@ -1,9 +1,9 @@
 import React from 'react';
-import linkedin  from '../assets/linkedin.svg'
-import github from '../assets/github.svg'
-import yingyang from '../assets/yingyang.svg'
-import enso from '../assets/enso.svg'
-import cv from '../assets/cv.svg'
+import lnkdin  from '../assets/lnkdin.svg'
+import ghub from '../assets/ghub.svg'
+import glab from '../assets/glab.svg'
+import twitter from '../assets/twitter.svg'
+import docs from '../assets/docs.svg'
 
 export default function Contact() {
     return (
@@ -19,17 +19,26 @@ export default function Contact() {
             </p>
             <div className='flex justify-around items-center'>
                 <a href='https://www.linkedin.com/in/rafael-cunha-b37083120/' rel='noopener noreferrer' target='_blank'>
-                    <img src={linkedin} alt='LinkedIn' title='LinkedIn' className='h3' />
+                    <img src={lnkdin} alt='LinkedIn' title='LinkedIn' className='h3' />
                 </a>
-                <img src={yingyang} alt='Balance' title='Balance' className='h2' />
+                
                 <a href='https://github.com/rafaewo' rel='noopener noreferrer' target='_blank'>
-                    <img src={github} alt='GitHub' title='GitHub' className='h3' />
+                    <img src={ghub} alt='GitHub' title='GitHub' className='h3' />
                 </a>
-                <img src={enso} alt='Vegvisir' title='Vegvisir' className='h2' />
+                <a href='https://gitlab.com/rafaewo' rel='noopener noreferrer' target='_blank'>
+                    <img src={glab} alt='GitLab' title='GitLab' className='h3' />
+                </a>
+                <a href='https://twitter.com/rafaewo1' rel='noopener noreferrer' target='_blank'>
+                    <img src={twitter} alt='Twitter' title='Twitter' className='h3' />
+                </a>
+                
                 <a href='https://docs.google.com/document/d/e/2PACX-1vTixNIKswrH5t_cIJ9WsFtfxzBYAZzKqu5HcFccT4XJkW63CLWZU3XU10a4qac7cFw2OXFQkt483DWB/pub' rel='noopener noreferrer' target='_blank'>
-                    <img src={cv} alt='Curriculum Vitae' title='Curriculum Vitae' className='h3' />
+                    <img src={docs} alt='Curriculum Vitae' title='Curriculum Vitae' className='h3' />
                 </a>
             </div>
         </div>
     );
 }
+
+// Ícones da icons8
+// <a target="_blank" href="https://icons8.com.br/icons/set/gitlab">Linha gradiente</a>, <a target="_blank" href="https://icons8.com.br/icons/set/linkedin">LinkedIn</a> e outros ícones por <a target="_blank" href="https://icons8.com.br">Icons8</a>
