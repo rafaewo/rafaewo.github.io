@@ -16,7 +16,7 @@ export default function About() {
                 React.js / Node.js / React-Native / GIT / API's REST <span className='moon-gray'>/ GraphQL / VR Development / Game Development</span>          
             </p>
             <p className="f5 f4-ns lh-copy measure">
-                Em agosto de 2019 saí do trabalho, voltei à universidade e atualmente estou trabalhando como bolsista em um projeto utilizando Internet das Coisas - o <a href='https://saiot.ect.ufrn.br/blog/' rel='noopener noreferrer' target='_blank' className='link b dark-pink dim' >SAIOT</a> - na área de desenvolvimento web.
+                Em agosto de 2019 saí do trabalho, voltei à universidade e atualmente estou trabalhando como bolsista em um projeto utilizando Internet das Coisas - o <a href='https://saiot.ect.ufrn.br/blog/' rel='noopener noreferrer' target='_blank' className='link b dark-green dim' >SAIOT</a> - na área de desenvolvimento web.
             </p>
         </div>
     );

@@ -12,9 +12,9 @@ class Card extends Component {
             <>
                 <header className="sans-serif">
                     <div className="mw9 center pa4 pt5-ns ph7-l">
-                        <div className='flex flex-row flex-wrap'>
-                            <img src={dev} alt='developer' className='w2' />
-                            <span className='white f3 fw1 ml3'>ALGUNS PROJETOS QUE FIZ / PARTICIPEI</span>
+                        <div className='flex flex-row items-center'>
+                            <img src={dev} alt='developer' className='w2 mb2' />
+                            <span className='white f4 fw1 ml3'>ALGUNS PROJETOS QUE FIZ / PARTICIPEI</span>
                         </div>
                         <time className="f6 mb2 pointer white dib ttu tracked"><small>sempre um work in progress</small></time>
                         <h3 className="f2 f1-m f-headline-l measure-narrow lh-title mv0">
