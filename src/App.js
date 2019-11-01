@@ -30,21 +30,21 @@ export default function App() {
       />
       <div className="pa3 stickyNav bg-near-white shadow-3 tc" >
         <div>
-          <a href='#home' className='flex justify-start grow absolute w-10'>
+          <a href='#bulba' className='flex justify-start grow absolute w-10'>
             <img src={bulba} alt='id' />
           </a>
-            <a href='#sobre' className="f3-l justify-center resize grow-large no-underline purple inline-flex items-center pa2 ph4 mr3" title="About">About</a>
-            <a href='#projetos' className="f3-l justify-center resize grow-large no-underline purple inline-flex items-center pa2 ph4 mr3" title="About">Projects</a>
-            <a href='#contato' className="f3-l justify-center resize grow-large no-underline purple inline-flex items-center pa2 ph4 mr3" title="Contact">Contact</a>
+            <a href='#focus' className="f3-l justify-center resize grow-large no-underline purple inline-flex items-center pa2 ph4 mr3" title="About">About</a>
+            <a href='#projects' className="f3-l justify-center resize grow-large no-underline purple inline-flex items-center pa2 ph4 mr3" title="About">Projects</a>
+            <a href='#coffee' className="f3-l justify-center resize grow-large no-underline purple inline-flex items-center pa2 ph4 mr3" title="Contact">Contact</a>
         </div>
       </div>
-      <div id='home'></div>
+      <div id='bulba'></div>
       <Header />
-      <div id='sobre' className='mb4'></div>
+      <div id='focus' className='mb4'></div>
       <About />
-      <div id='projetos'></div>
+      <div id='projects'></div>
       <Card />
-      <div id='contato'></div>
+      <div id='coffee'></div>
       <Contact />
     </div>
   );
