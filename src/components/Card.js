@@ -14,14 +14,14 @@ class Card extends Component {
                     <div className="mw9 center pa4 pt5-ns ph7-l">
                         <div className='flex flex-row items-center'>
                             <img src={dev} alt='developer' className='w2 mb2' />
-                            <span className='white f4 fw1 ml3'>ALGUNS PROJETOS QUE FIZ / PARTICIPEI</span>
+                            <span className='white f4 fw1 ml3'>ALGUNS PROJETOS QUE DESENVOLVI</span>
                         </div>
                         <time className="f6 mb2 pointer white dib ttu tracked"><small>sempre um work in progress</small></time>
-                        <h3 className="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+                        <h3 className="f2 f1-m f-subheadline-l measure-narrow lh-title mv0">
                             <span className="bg-black-60 lh-copy hoveron white pa1 tracked-tight">
-                                <span title='Webapp que utiliza uma API de reconhecimento facial' >brain-app </span>/
+                            <a href='https://github.com/rafaewo/cafeteria' title='Aplicação estilo e-commerce feita no expo' target='_blank' rel='noopener noreferrer'> coffee shop </a>/
                                 <a href='https://www.producthunt.com/posts/hackatinder' title='Ferramenta para criação de times para hackathons online' target='_blank' rel='noopener noreferrer'> hackatinder </a>
-                                /<span title='Webapp mobile desenvolvido na Semana Omnistack 9.0 junto com a Rocketseat'> airCnC </span>/
+                                /<a href='https://youtu.be/ogRu-JBRoyk' title='Análise de perfis gamers utilizando um modelo de machine learning' target='_blank' rel='noopener noreferrer'> gaming-anxiety </a>/
                                 <a href='https://rafaewo.github.io/cultu-brasil/' title='Projeto para informar o público sobre a diversidade cultural brasileira' target='_blank' rel='noopener noreferrer'> cultu-brasil</a>
                             </span>
                         </h3>

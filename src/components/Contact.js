@@ -2,7 +2,7 @@ import React from 'react';
 import lnkdin  from '../assets/lnkdin.svg'
 import ghub from '../assets/ghub.svg'
 import glab from '../assets/glab.svg'
-import twitter from '../assets/twitter.svg'
+import youtube from '../assets/youtube.svg'
 import docs from '../assets/docs.svg'
 
 export default function Contact() {
@@ -15,7 +15,7 @@ export default function Contact() {
                 rafaelnogunha@hotmail.com
             </p>
             <p className="f5 f4-ns lh-copy measure mb4">
-                Tenho interesse futuro nas seguintes áreas: realidade virtual / aumentada, empreendedorismo e desenvolvimento mobile. Se tiver alguma ideia pra compartilhar, sinta-se à vontade para dar um alô em uma das minhas redes sociais.
+                Tenho interesse futuro nas seguintes áreas: inteligência artificial (deep learning), realidade virtual / aumentada, empreendedorismo e desenvolvimento mobile. Para contato, sinta-se à vontade para dar um alô em uma das minhas redes sociais.
             </p>
             <div className='flex justify-around items-center'>
                 <a href='https://www.linkedin.com/in/rafael-cunha-b37083120/' rel='noopener noreferrer' target='_blank'>
@@ -28,10 +28,9 @@ export default function Contact() {
                 <a href='https://gitlab.com/rafaewo' rel='noopener noreferrer' target='_blank'>
                     <img src={glab} alt='GitLab' title='GitLab' className='h3' />
                 </a>
-                <a href='https://twitter.com/rafaewo1' rel='noopener noreferrer' target='_blank'>
-                    <img src={twitter} alt='Twitter' title='Twitter' className='h3' />
+                <a href='https://www.youtube.com/channel/UCujLx642rwODTIDu1hA2AqQ' rel='noopener noreferrer' target='_blank'>
+                    <img src={youtube} alt='YouTube' title='YouTube' className='h3' />
                 </a>
-                
                 <a href='https://docs.google.com/document/d/e/2PACX-1vTixNIKswrH5t_cIJ9WsFtfxzBYAZzKqu5HcFccT4XJkW63CLWZU3XU10a4qac7cFw2OXFQkt483DWB/pub' rel='noopener noreferrer' target='_blank'>
                     <img src={docs} alt='Curriculum Vitae' title='Curriculum Vitae' className='h3' />
                 </a>
