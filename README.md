@@ -1,6 +1,6 @@
 ## Oi, eu sou o Rafael
 
-> Estudo Ciências e Tecnologia na UFRN e faço sites por diversão.
+> Estudo Ciências e Tecnologia na UFRN e faço sites por diversão (e hoje, por trabalho).
 >
 > Sou barista também.
 
